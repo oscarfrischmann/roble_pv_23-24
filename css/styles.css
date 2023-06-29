@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+a:visited {
+  color: rgb(18, 194, 126);
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+ul li:nth-child(even) {
+  background-color: rgba(127, 255, 212, 0.438);
+}
+
+h1 {
+  color: green;
+}
+
+/*# sourceMappingURL=styles.css.map */
