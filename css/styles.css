@@ -76,17 +76,44 @@ ul li {
 }
 
 .header__logo {
-  width: 100px;
+  width: 140px;
 }
 .header__nav-list {
   align-items: center;
   padding: 0;
   gap: 4rem;
   margin-bottom: 0;
+  font-size: 1.6rem;
 }
 
-h1 {
-  color: green;
+h2 {
+  color: rgb(255, 217, 0);
+}
+
+@keyframes apear {
+  0% {
+    transform: translate(-1050px);
+  }
+  100% {
+    transform: translate(2000px);
+  }
+}
+.main__index {
+  background-color: rgba(213, 241, 170, 0.76);
+}
+.main__index h2 {
+  font-size: 8rem;
+  animation-name: apear;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  /* animation-delay: 2s; */
+  animation-timing-function: linear;
+}
+.main__span {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
