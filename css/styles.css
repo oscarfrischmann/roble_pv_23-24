@@ -58,7 +58,7 @@ a {
 
 main {
   position: relative;
-  top: 190px;
+  top: 150px;
 }
 
 .imag {
@@ -72,6 +72,10 @@ main {
 .logo {
   display: block;
   margin: 0 auto;
+}
+
+.burguer {
+  display: none;
 }
 
 header {
@@ -120,6 +124,25 @@ ul li {
   font-size: 1.6rem;
 }
 
+@media (max-width: 768px) {
+  .burguer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-right: 1rem;
+  }
+  .logo-phone {
+    width: 150px;
+    margin-left: 1rem;
+  }
+  .btn-group {
+    display: block;
+  }
+  .header__nav {
+    display: none;
+  }
+}
 .main__index {
   background-color: rgba(213, 241, 170, 0.76);
   overflow: hidden;
