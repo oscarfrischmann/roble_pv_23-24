@@ -74,6 +74,11 @@ main {
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+  .galeria__articulo {
+    max-width: 90vw;
+  }
+}
 .burguer {
   display: none;
 }
