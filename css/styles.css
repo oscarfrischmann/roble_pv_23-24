@@ -77,8 +77,20 @@ main {
 
 @media (max-width: 768px) {
   .galeria__articulo {
-    max-width: 90vw;
-    gap: 0.3rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "foto1 foto1" "foto1 foto1" "art foto2";
+    max-width: 93vw;
+    gap: 0;
+  }
+  .galeria__articulo .item:nth-child(1) {
+    grid-area: art;
+  }
+  .galeria__articulo .item:nth-child(2) {
+    grid-area: foto1;
+  }
+  .galeria__articulo .item:nth-child(3) {
+    grid-area: foto2;
   }
   .galeria__nombre {
     font-size: 1.3rem;
