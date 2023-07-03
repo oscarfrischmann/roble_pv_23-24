@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +11,8 @@
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="header__nav">
             <ul>
                 <li><a href="alaia.html">alaia</a></li>
                 <li><a href="alicante.html">alicante</a></li>
@@ -28,27 +29,89 @@
                 <li><a href="venecia.html">venecia</a></li>
             </ul>
         </nav>
-        <hr>
+        <div class="burguer">
+            <img src="../img/logo-roble.png" alt="" class="logo-phone">
+            <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle shadow bg-success bg-gradient text-light border border-0"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Líneas
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="alaia.html">alaia</a></li>
+                    <li><a class="dropdown-item" href="alicante.html">alicante</a></li>
+                    <li><a class="dropdown-item" href="barcelona.html">barcelona</a></li>
+                    <li><a class="dropdown-item" href="birk.html">birk</a></li>
+                    <li><a class="dropdown-item" href="cali.html">cali</a></li>
+                    <li><a class="dropdown-item" href="dallas.html">dallas</a></li>
+                    <li><a class="dropdown-item" href="fussbett.html">fussbett</a></li>
+                    <li><a class="dropdown-item" href="marbella.html">marbella</a></li>
+                    <li><a class="dropdown-item" href="mdq.html">mdq</a></li>
+                    <li><a class="dropdown-item" href="oviedo.html">oviedo</a></li>
+                    <li><a class="dropdown-item" href="puglia.html">puglia</a></li>
+                    <li><a class="active dropdown-item" href="relax.html">relax</a></li>
+                    <li><a class="dropdown-item" href="venecia.html">venecia</a></li>
+                    
+                        <hr class="dropdown-divider">
+                    <li><a class="dropdown-item" href="../pages/liam.html">Hombre</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
-        <div class="contenedor">
-            <img src="../img/relax/RELAX-2003-BLANCO-SENA-2.jpg" alt="" class="imag">
-            <img src="../img/relax/RELAX-2003-BLANCO-SENA.jpg" alt="" class="imag">
-            <img src="../img/relax/RELAX-2003-VOGUE-CIRCUS-2.jpg" alt="" class="imag">
-            <img src="../img/relax/RELAX-2003-VOGUE-CIRCUS.jpg" alt="" class="imag">
-            <img src="../img/relax/RELAX-2004-NEGRO-SENA-2.jpg" alt="" class="imag">
-            <img src="../img/relax/RELAX-2004-NEGRO-SENA.jpg" alt="" class="imag">
-            <img src="../img/relax/RELAX-2004-PELTRE-SENA-2.jpg" alt="" class="imag">
-            <img src="../img/relax/RELAX-2004-PELTRE-SENA.jpg" alt="" class="imag">
-            <img src="../img/relax/RELAX-2006-CARAMELO-ECRU-VERDE-PAMPA.jpg" alt="" class="imag">            
-            <img src="../img/relax/RELAX-2006.jpg" alt="" class="imag">
-            <img src="../img/relax/RELAX-2006-METAL-METAL-2.jpg" alt="" class="imag">
-            <img src="../img/relax/RELAX-2006-METAL-METAL.jpg" alt="" class="imag">
-            <img src="../img/relax/RELAX-2008-MILKY-LOLA.jpg" alt="" class="imag">
-            <img src="../img/relax/RELAX-2008.jpg" alt="" class="imag">
-            <img src="../img/relax/2006.jpg" alt="" class="imag">
-        </div>
+        <section class="titulos__galeria">
+            <h2 class="titulos__galeria--main"><span class="titulos__galeria--small">Línea</span> RELAX</h2>
+            <span class="titulos__galeria--second">35 - 41</span>
+            <span class="titulos__galeria--second">PU</span>
+        </section>
+        <section class="galeria">
+            <article class="galeria__articulo">
+                <span class="galeria__nombre item">art. 2003</span>
+                <img src="../img/relax/RELAX-2003-BLANCO-SENA-2.jpg" alt="" class="imag item">
+                <img src="../img/relax/RELAX-2003-BLANCO-SENA.jpg" alt="" class="imag item">
+            </article>
+            <article class="galeria__articulo">
+                <span class="galeria__nombre item">art. 2003</span>
+                <img src="../img/relax/RELAX-2003-VOGUE-CIRCUS-2.jpg" alt="" class="imag item">
+                <img src="../img/relax/RELAX-2003-VOGUE-CIRCUS.jpg" alt="" class="imag item">
+            </article>
+            <article class="galeria__articulo">
+                <span class="galeria__nombre item">art. 2004</span>
+                <img src="../img/relax/RELAX-2004-NEGRO-SENA-2.jpg" alt="" class="imag item">
+                <img src="../img/relax/RELAX-2004-NEGRO-SENA.jpg" alt="" class="imag item">
+            </article>
+            <article class="galeria__articulo">
+                <span class="galeria__nombre item">art. 2004</span>
+                <img src="../img/relax/RELAX-2004-PELTRE-SENA-2.jpg" alt="" class="imag item">
+                <img src="../img/relax/RELAX-2004-PELTRE-SENA.jpg" alt="" class="imag item">
+            </article>
+            <article class="galeria__articulo">
+                <span class="galeria__nombre item">art. 2006</span>
+                <img src="../img/relax/2006.jpg" alt="" class="imag item">
+                <img src="../img/relax/2006.jpg" alt="" class="imag item">
+            </article>
+            <article class="galeria__articulo">
+                <span class="galeria__nombre item">art. 2006</span>
+                <img src="../img/relax/RELAX-2006-CARAMELO-ECRU-VERDE-PAMPA.jpg" alt="" class="imag item">
+                <img src="../img/relax/RELAX-2006.jpg" alt="" class="imag item">
+            </article>
+            <article class="galeria__articulo">
+                <span class="galeria__nombre item">art. 2006</span>
+                <img src="../img/relax/RELAX-2006-METAL-METAL-2.jpg" alt="" class="imag item">
+                <img src="../img/relax/RELAX-2006-METAL-METAL.jpg" alt="" class="imag item">
+            </article>
+            <article class="galeria__articulo">
+                <span class="galeria__nombre item">art. 2008</span>
+                <img src="../img/relax/RELAX-2008-MILKY-LOLA.jpg" alt="" class="imag item">
+                <img src="../img/relax/RELAX-2008.jpg" alt="" class="imag item">
+            </article>
+            <article class="galeria__articulo">
+                <span class="galeria__nombre item">art. </span>
+            </article>
+        </section>
     </main>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

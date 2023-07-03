@@ -11,41 +11,108 @@
 </head>
 
 <body>
-    <header>
-        <ul>
-            <li><a href="alaia.html">alaia</a></li>
-            <li><a href="alicante.html">alicante</a></li>
-            <li class="active"><a href="barcelona.html">barcelona</a></li>
-            <li><a href="birk.html">birk</a></li>
-            <li><a href="cali.html">cali</a></li>
-            <li><a href="dallas.html">dallas</a></li>
-            <li><a href="fussbett.html">fussbett</a></li>
-            <li><a href="marbella.html">marbella</a></li>
-            <li><a href="mdq.html">mdq</a></li>
-            <li><a href="oviedo.html">oviedo</a></li>
-            <li><a href="puglia.html">puglia</a></li>
-            <li><a href="relax.html">relax</a></li>
-            <li><a href="venecia.html">venecia</a></li>
-        </ul>
-        <hr>
+    <header class="header">
+        <nav class="header__nav">
+            <ul>
+                <li><a href="alaia.html">alaia</a></li>
+                <li><a href="alicante.html">alicante</a></li>
+                <li class="active"><a href="barcelona.html">barcelona</a></li>
+                <li><a href="birk.html">birk</a></li>
+                <li><a href="cali.html">cali</a></li>
+                <li><a href="dallas.html">dallas</a></li>
+                <li><a href="fussbett.html">fussbett</a></li>
+                <li><a href="marbella.html">marbella</a></li>
+                <li><a href="mdq.html">mdq</a></li>
+                <li><a href="oviedo.html">oviedo</a></li>
+                <li><a href="puglia.html">puglia</a></li>
+                <li><a href="relax.html">relax</a></li>
+                <li><a href="venecia.html">venecia</a></li>
+            </ul>
+        </nav>
+        <div class="burguer">
+            <img src="../img/logo-roble.png" alt="" class="logo-phone">
+            <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle shadow bg-success text-light border border-0"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Líneas
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="alaia.html">alaia</a></li>
+                    <li><a class="dropdown-item" href="alicante.html">alicante</a></li>
+                    <li><a class="active dropdown-item" href="barcelona.html">barcelona</a></li>
+                    <li><a class="dropdown-item" href="birk.html">birk</a></li>
+                    <li><a class="dropdown-item" href="cali.html">cali</a></li>
+                    <li><a class="dropdown-item" href="dallas.html">dallas</a></li>
+                    <li><a class="dropdown-item" href="fussbett.html">fussbett</a></li>
+                    <li><a class="dropdown-item" href="marbella.html">marbella</a></li>
+                    <li><a class="dropdown-item" href="mdq.html">mdq</a></li>
+                    <li><a class="dropdown-item" href="oviedo.html">oviedo</a></li>
+                    <li><a class="dropdown-item" href="puglia.html">puglia</a></li>
+                    <li><a class="dropdown-item" href="relax.html">relax</a></li>
+                    <li><a class="dropdown-item" href="venecia.html">venecia</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="../pages/liam.html">Hombre</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
-        <div class="contenedor">
-            <img class="imag" src="../img/barcelona/BARCELONA-1303-NEGRO-PAMPA.JPG" alt="">
-            <img class="imag" src="../img/barcelona/BARCELONA-1303.JPG" alt="">
-            <img class="imag" src="../img/barcelona/BARCELONA-1308-PLATINO-CIRCUS.JPG" alt="">
-            <img class="imag" src="../img/barcelona/BARCELONA-1308.JPG" alt="">
-            <img class="imag" src="../img/barcelona/BARCELONA-1309-A-PIEDRA-MINESOTA-2.jpg" alt="">
-            <img class="imag" src="../img/barcelona/BARCELONA-1309-A-PIEDRA-MINESOTA.JPG" alt="">
-            <img class="imag" src="../img/barcelona/BARCELONA-1309-A-PRIMUS-CIRCUS.JPG" alt="">
-            <img class="imag" src="../img/barcelona/BARCELONA-1309-PRIMUS-CIRCUS.JPG" alt="">
-            <img class="imag" src="../img/barcelona/BARCELONA-1310-CARAMELO-PAMPA.JPG" alt="">
-            <img class="imag" src="../img/barcelona/BARCELONA-1310.JPG" alt="">
-            <img class="imag" src="../img/barcelona/BARCELONA-1311-MANGO-LOLA.JPG" alt="">
-            <img class="imag" src="../img/barcelona/BARCELONA-1311.JPG" alt="">
-            <img class="imag" src="../img/barcelona/BARCELONA-1313-MANGO-LOLA.JPG" alt="">
-            <img class="imag" src="../img/barcelona/BARCELONA-1313.JPG" alt="">
-        </div>
+        <section class="titulos__galeria">
+            <h2 class="titulos__galeria--main"><span class="titulos__galeria--small">Línea</span> BARCELONA</h2>
+            <span class="titulos__galeria--second">35 - 41</span>
+            <span class="titulos__galeria--second">TR</span>
+        </section>
+        <section class="galeria">
+            <article class="galeria__articulo">
+                <span class="galeria__nombre item">art. 1303</span>
+                <img class="imag item" src="../img/barcelona/BARCELONA-1303-NEGRO-PAMPA.JPG" alt="">
+                <img class="imag item" src="../img/barcelona/BARCELONA-1303.JPG" alt="">
+            </article>
+        </section>
+        <section class="galeria">
+            <article class="galeria__articulo">
+                <span class="galeria__nombre item">art. 1308</span>
+                <img class="imag item" src="../img/barcelona/BARCELONA-1308-PLATINO-CIRCUS.JPG" alt="">
+                <img class="imag item" src="../img/barcelona/BARCELONA-1308.JPG" alt="">
+            </article>
+        </section>
+        <section class="galeria">
+            <article class="galeria__articulo">
+                <span class="galeria__nombre item">art. 1309</span>
+                <img class="imag item" src="../img/barcelona/BARCELONA-1309-A-PIEDRA-MINESOTA-2.jpg" alt="">
+                <img class="imag item" src="../img/barcelona/BARCELONA-1309-A-PIEDRA-MINESOTA.JPG" alt="">
+            </article>
+        </section>
+        <section class="galeria">
+            <article class="galeria__articulo">
+                <span class="galeria__nombre item">art. 1309</span>
+                <img class="imag item" src="../img/barcelona/BARCELONA-1309-A-PRIMUS-CIRCUS.JPG" alt="">
+                <img class="imag item" src="../img/barcelona/BARCELONA-1309-PRIMUS-CIRCUS.JPG" alt="">
+            </article>
+        </section>
+        <section class="galeria">
+            <article class="galeria__articulo">
+                <span class="galeria__nombre item">art. 1310</span>
+                <img class="imag item" src="../img/barcelona/BARCELONA-1310-CARAMELO-PAMPA.JPG" alt="">
+                <img class="imag item" src="../img/barcelona/BARCELONA-1310.JPG" alt="">
+            </article>
+        </section>
+        <section class="galeria">
+            <article class="galeria__articulo">
+                <span class="galeria__nombre item">art. 1311</span>
+                <img class="imag item" src="../img/barcelona/BARCELONA-1311-MANGO-LOLA.JPG" alt="">
+                <img class="imag item" src="../img/barcelona/BARCELONA-1311.JPG" alt="">
+            </article>
+        </section>
+        <section class="galeria">
+            <article class="galeria__articulo">
+                <span class="galeria__nombre item">art. 1313</span>
+                <img class="imag item" src="../img/barcelona/BARCELONA-1313-MANGO-LOLA.JPG" alt="">
+                <img class="imag item" src="../img/barcelona/BARCELONA-1313.JPG" alt="">
+            </article>
+        </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

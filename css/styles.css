@@ -49,17 +49,21 @@ a {
   flex-direction: column;
   align-items: center;
 }
-.titulos__galeria h2 {
+.titulos__galeria--main {
   font-size: 4rem;
   text-decoration: underline;
 }
-.titulos__galeria span {
-  font-size: 2rem;
+.titulos__galeria--second {
+  font-size: 2.5rem;
+}
+.titulos__galeria--small {
+  font-size: 3rem;
+  font-style: oblique;
 }
 
 main {
   padding-top: 150px;
-  background-color: rgba(203, 235, 203, 0.651);
+  background-color: rgba(203, 235, 203, 0.548);
 }
 
 .imag {
@@ -94,6 +98,14 @@ main {
   }
   .galeria__nombre {
     font-size: 1.3rem;
+  }
+  .titulos__galeria h2,
+  .titulos__galeria span {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  .dropdown-item {
+    margin: 0.5rem 0;
   }
 }
 .burguer {
