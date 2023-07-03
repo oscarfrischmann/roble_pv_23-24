@@ -17,6 +17,14 @@ a {
     transform: translate(2000px);
   }
 }
+@keyframes apear-mob {
+  0% {
+    transform: translate(-400px);
+  }
+  100% {
+    transform: translate(500px);
+  }
+}
 .galeria__articulo {
   box-shadow: 4.5px 4.5px 10px;
   max-width: 70vw;
@@ -66,6 +74,10 @@ main {
   background-color: rgba(203, 235, 203, 0.548);
 }
 
+html {
+  background-color: rgba(203, 235, 203, 0.548);
+}
+
 .imag {
   width: 100%;
 }
@@ -77,6 +89,13 @@ main {
 .logo {
   display: block;
   margin: 0 auto;
+}
+
+.main__img {
+  width: 100vw;
+  height: 66vh;
+  background-image: url(../img/cerca-zapatero-trabajando-cuero-textil.jpg);
+  background-position: 39% 50%;
 }
 
 @media (max-width: 768px) {
@@ -147,6 +166,10 @@ ul li {
   font-weight: 700;
 }
 
+.gen {
+  color: white;
+}
+
 .header__logo {
   width: 140px;
 }
@@ -178,12 +201,11 @@ ul li {
   }
 }
 .main__index {
-  background-color: rgba(213, 241, 170, 0.76);
+  background-color: rgba(203, 235, 203, 0.548);
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8rem;
 }
 .main__index h2 {
   color: rgb(11, 95, 32);
@@ -199,6 +221,37 @@ ul li {
 .main__index h2 span {
   font-size: 4rem;
   font-style: oblique;
+}
+
+@media (max-width: 768px) {
+  .main__index {
+    background-color: rgba(203, 235, 203, 0.548);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main__index h2 {
+    color: rgb(11, 95, 32);
+    font-size: 2rem;
+    animation-name: apear-mob;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    /* animation-delay: 2s; */
+    animation-timing-function: linear;
+    line-height: initial;
+    overflow: hidden;
+  }
+  .main__index h2 span {
+    font-size: 2rem;
+    font-style: oblique;
+  }
+  .main__img {
+    width: 100vw;
+    height: 73vh;
+    background-image: url(../img/cerca-zapatero-trabajando-cuero-textil.jpg);
+    background-position: 33% 50%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
